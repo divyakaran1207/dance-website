@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Lobster;
+    font-size: 20px;
+}
+#navbar{
+    padding: 10px;
+    font-size: 30px;
+    background-image: linear-gradient(#e82d0d,#080105);
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#navbar li{
+    list-style: none;
+    margin: 5px 25px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+
+#navbar li a:hover{
+    transition: cubic-bezier(1,-0.01, 0.49, 0.9);
+    color: white;
+    font-size: 25px;
+    
+}
+
+
+#introsection {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    background: url('/static/samantha-weisburg-Vgj9bUwaqT0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#missionsection{
+    height: 300px;
+    background-color: rgb(90, 194, 107);
+   
+    
+}
+#missionsection h1{
+    text-align: center;   
+    display: block; 
+
+}
+#sponsorsection {
+    height: 300px;
+    background-color: yellow;
+    
+}
+#sponsorsection h1{
+    text-align: center;   
+    display: block; 
+}
+#footer{
+    height: 100px;
+    background-color: black;  
+    color: white;  
+    text-align: center;
+    padding: 10px;
+    
+}
+.small{
+    font-size: 15px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    margin: 15px 12px;
+    display: inline-block;
+    font-size: 20px;
+
+}
+.card p {
+    padding-top:  10px;
+    text-align: center;
+   
+}
+#logo img{
+    object-fit: contain;
+    height: 100px;
+    border-bottom: 3px solid black;
+    border-radius: 50px;
+    box-shadow: 0px -2px 15px 8px;
+    filter: invert(1);
+    float: left;
+}
+.card-img img{
+    object-fit: contain;
+    height: 160px;
+}
+.card-box{
+    display: flex;
+
+}
+.card-content{
+    padding: 10px;
+}
+.sponsor-img img{
+    object-fit: contain;
+    height: 100px;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}

@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    
+    section#introsection 
+        div Welcome to Awesome Dance Academy 
+        div.small The best place to learn to dance 
+    section#missionsection 
+        h1 Our mission
+        div.card 
+            p Dance perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/moon-walk (3).png", alt="")
+                div.card-content 
+                    p This is the best dance academy
+        div.card 
+            p Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/cp(1).png", alt="")
+                div.card-content 
+                    p This is the best dance academy
+        div.card 
+            p Expert training
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/logo (1).png", alt="")
+                div.card-content 
+                    p This is the best dance academy
+    section#sponsorsection 
+        h1 Our Sponsors 
+        div.sponsor-img 
+            img(src="/static/img/ccdlogo.png", alt="")
+            img(src="/static/img/applelogo.png", alt="")
+            img(src="/static/img/googlelogo.png", alt="")
+            img(src="/static/img/asuslogo.png", alt="")
+            img(src="/static/img/hplogo.png", alt="")
